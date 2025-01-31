@@ -10,5 +10,8 @@ config.color_scheme = 'Gruvbox Material (Gogh)'
 config.font = wezterm.font 'JetBrains Mono'
 config.font_size = 11.3
 
+config.max_fps = 144
+config.animation_fps = 144
+
 -- and finally, return the configuration to wezterm
 return config
