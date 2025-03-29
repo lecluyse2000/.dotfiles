@@ -8,7 +8,7 @@ local config = wezterm.config_builder()
 config.enable_wayland = false
 config.color_scheme = 'Gruvbox Material (Gogh)'
 config.font = wezterm.font 'JetBrains Mono'
-config.font_size = 11.3
+config.font_size = 12
 
 config.max_fps = 144
 config.animation_fps = 144
