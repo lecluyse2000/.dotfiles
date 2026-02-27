@@ -5,7 +5,7 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
-config.enable_wayland = false
+config.enable_wayland = true
 config.color_scheme = 'Gruvbox Material (Gogh)'
 config.font = wezterm.font 'JetBrains Mono'
 config.font_size = 12
